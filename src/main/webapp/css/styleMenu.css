@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.menu {
+	background-image: url("./../images/banner.jpg");
+	background-size: cover;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.button {
+	padding: 10px 10px;
+	background-color: olive;
+	box-shadow: 2px 2px 5px black;
+	border: none;
+	margin: 2%;
+	border-radius: 10px;
+	color: #020101;
+	text-decoration: none;
+	font-weight: bolder;
+	font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.creation {
+	display : flex;
+	flex-direction: column;
+	width : 20%;
+}
+
+.creation label {
+	margin : 5px 30%;
+	color: navy;
+	background-color: silver;
+}
+
+.creation input {
+	margin-bottom : 10px;
+}
+
+.bouton {
+	margin : 10px 40%;
+	width : 20%;
+	background-color: red;
+}
+
+.titre {
+	color: green;
+	font-family: monospace;
+	font-style: oblique;
+}
+
+body {
+	background-image: url("./../images/wallpaper.jpg");
+	background-size: cover;
+}
