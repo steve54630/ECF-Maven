@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Musicien créé</title>
-	<link rel="icon" type="image/x-icon" href="Ma photo.jpg">
+	<link rel="icon" type="image/x-icon" href="images/Music.jpg">
 	<link rel="stylesheet" type="text/css" href="<c:url value='/css/style.css' />">
+	<link rel="stylesheet" type="text/css" href="<c:url value='/css/styleMenu.css' />">
 </head>
 <body>
 	<h1 class="titre">Confirmer le musicien enregistré</h1>
@@ -19,6 +20,6 @@
 	<p>Téléphone : ${musicien.telephone }</p>
 	<p>E-Mail : ${musicien.email }</p>
 	<p>Instrument joué : ${musicien.instrument }</p>
-	<a href="/MusicSchool/Groupe">Lien vers un groupe</a>
+	<a class="button" href="index">Retour</a>
 </body>
 </html>

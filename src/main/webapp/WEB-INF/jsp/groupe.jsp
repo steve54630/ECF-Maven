@@ -2,7 +2,9 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<link rel="icon" type="image/x-icon" href="images/Ma photo.jpg">
+	<link rel="icon" type="image/x-icon" href="images/Music.jpg">
+	<link rel="stylesheet" type="text/css" href="<c:url value='/css/style.css' />">
+	<link rel="stylesheet" type="text/css" href="<c:url value='/css/styleMenu.css' />">
 	<title>Groupe</title>
 </head>
 <body>
@@ -16,6 +18,6 @@
 		<p>Nom du membre : <c:out value="${mem.nom}"></c:out></p>
 		<p>Prénom du membre : <c:out value="${mem.prenom}"></c:out></p>
 	</c:forEach>
-	<a href="/MusicSchool/Musicien">Retour à la création d'un musicien</a>
+	<a href="index" class="button">Retour à la page d'acceuil</a>
 </body>
 </html>

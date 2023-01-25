@@ -35,8 +35,12 @@ body {
 	color: red;
 	background-color: silver;
 	width : 20%;
-	font-size: x-large;
-	font-weight: bolder;
+	border: solid black;
+}
+
+.menu {
+	display : flex;
+	flex-direction: column;
 }
 
 .button {

@@ -2,17 +2,22 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<link type="text/css" rel="stylesheet" href="css/styleMenu.css">
+<link rel="icon" type="image/x-icon" href="images/Music.jpg">
+<link type="text/css" rel="stylesheet" href="css/styleIndex.css">
 <title>Index</title>
 </head>
-<body class="menu">
+<body>
+	
 	<h1>Bienvenue sur le site MusicSchool</h1>
 
 	<p>A l'aide de cette application, il va vous être possible de créer
 		des groupes et des adhérents pour ses groupes. Pour commencer,
 		veuillez choisir une des options suivantes: </p>
+		
+	<c:import url="/WEB-INF/jsp/menu.jsp"></c:import>
 	
-	<a class="button" href="/MusicSchool/Musicien">Création d'un musicien</a>
-	<a class="button" href="/MusicSchool/Groupe">Création d'un groupe</a>
+	<c:if test="${not empty erreur }">
+		<p class="erreur">${erreur }</p>
+	</c:if>
 </body>
 </html>

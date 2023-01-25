@@ -1,0 +1,75 @@
+body {
+	background-image: url("./../images/Meteo.jpg");
+	background-size: cover;
+}
+
+.c01d, .c01n {
+	background-image: url("https://jooinn.com/images/clear-sky-18.jpg");
+	background-size: cover;
+	
+}
+
+.c02d, .c02n {
+	background-image: url("https://wallpaperaccess.com/full/175937.jpg");
+	background-size: cover;
+}
+
+.c03d, .c03n {
+	background-image:
+		url("https://th.bing.com/th/id/R.eb047e9764997f5822bbb0d4a5ed0ca8?rik=1qYzfEGEijsAUg&pid=ImgRaw&r=0");
+	background-size: cover;
+}
+
+.c04d, .c04n {
+	background-image:
+		url("https://images.freeimages.com/images/large-previews/e83/broken-clouds-1537880.jpg");
+	background-size: cover;
+}
+
+.c09d, .c09n {
+	background-image:
+		url("https://static.actu.fr/uploads/2019/09/drops-2404441_1920-960x640.jpg");
+	background-size: cover;
+}
+
+.c10d, .c10n {
+	background-image:
+		url("https://th.bing.com/th/id/R.f90b7a3325a14799b7f9342c67982695?rik=iuxE5KDOOcPxUQ&riu=http%3a%2f%2fnorthstar.church%2fwp-content%2fuploads%2f2019%2f04%2frain.jpg&ehk=cvSiFZcBpUXwZRdzABx%2fqzNU%2b4egoyfACH4KRoAqBt4%3d&risl=&pid=ImgRaw&r=0");
+	background-size: cover;
+}
+
+.c11d, .c11n {
+	background-image:
+		url("https://img.fotocommunity.com/severe-thunderstorm-938ae087-f6eb-4ec0-8be9-54b66ce98788.jpg?height=1080");
+	background-size: cover;
+}
+
+.c13d, .c13n {
+	background-image:
+		url("https://wallup.net/wp-content/uploads/2019/09/438323-winter-forest-snow-white-trees.jpg");
+	background-size: cover;
+}
+
+.c50d, .c50n {
+	background-image:
+		url("https://vinkacademy.nl/wp-content/uploads/mist-in-de-ochtend-kampina_2112-1536x1022.jpg");
+	background-size: cover;
+}
+
+.meteo {
+	text-shadow: 5px 5px 3px black;
+	color: silver;
+	background-image: url("https://c2.staticflickr.com/4/3571/3358112077_6e7097263d_b.jpg");
+	background-size: contain;
+	width : 15%;
+	padding: 10px 10px;
+	margin: 10px 0 15px;
+}
+
+.erreur {
+	color: red;
+	background-color: silver;
+	width : 20%;
+	font-size: x-large;
+	font-weight: bolder;
+}
